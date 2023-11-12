@@ -1,0 +1,74 @@
+*{
+    margin:0;
+}
+
+body{
+    width: 1440px;
+    margin: auto;
+
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introduction{
+    text-align:  center;
+}
+
+.introduction h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.introduction p{
+    width: 400px; 
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.cta{
+    margin-bottom: 20px;
+}
+
+.screen-mockups img{
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+   margin: auto;
+}
+
+.statistics-parent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.statistics-child{
+  margin-top: 50px;  
+}
+.statistics-child img{
+    position: absolute;
+    
+}
+
+.statistics-child p{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+.communitiesformed, .messagessent{
+    position: relative;
+    left: 0;
+    font-size: 97px;
+    font-family: open Sans;
+    font-weight: bold;
+}
+
+.growtogether{
+    background-color:#F5FAFE;
+}
