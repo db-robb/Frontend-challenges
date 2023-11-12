@@ -5,14 +5,40 @@
 body{
     width: 1440px;
     margin: auto;
-
+    font-family: 'Open Sans';
     padding: 20px;
+    weight: 400, 600, 700;
+}
+
+header{
+    font-family: 'Poppins';
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav a{
+    border: solid 1px  hsl(322, 100%, 66%);
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px; 
+}
+
+a{
+    text-decoration: none;
+    border: solid 1px  hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px 50px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .introduction{
@@ -22,22 +48,32 @@ nav{
 .introduction h1{
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .introduction p{
-    width: 400px; 
+    width: 500px; 
     margin: auto;
     margin-bottom: 30px;
+    font-size: 17px;
 }
 
+
 .cta{
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    border: solid 1px  hsl(322, 100%, 66%);
+    
+}
+
+.screen-mockups-image{
+    padding-top: 70px;
 }
 
 .screen-mockups img{
    display: flex;
    align-items: center;
-   margin-top: 50px;
+
    margin: auto;
 }
 
@@ -45,6 +81,7 @@ nav{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    margin-bottom: 150px;
 }
 
 .statistics-child{
@@ -71,4 +108,143 @@ nav{
 
 .growtogether{
     background-color:#F5FAFE;
+    display: flex;
+    justify-content: space-between;
+    padding:25px 150px;
 }
+
+.growtogether-presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.growtogether-presentation h2{
+    margin-bottom: 20px;
+}
+
+.growtogether p{
+    width: 450px;
+}
+
+.growtogether img{
+    width: 30%;
+}
+
+.flowingconversations-block{
+    display: flex;
+    align-items: center;
+    padding: 150px;
+    justify-content: space-between;
+}
+
+.flowingconversations-block img{
+    width: 30%;
+}
+
+.flowingconversations-block h2{
+    margin-bottom: 20px;
+}
+
+.flowingconversations-block p{
+    width: 450px;
+}
+
+.top-desktop{
+    position: relative;
+    top: 10px
+}
+
+.yourusers {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:25px 150px;
+   
+   background-color: #F5FAFE;
+}
+
+.yourusers h2{
+    margin-bottom: 20px;
+}
+
+.yourusers P{
+    width: 450px;
+}
+
+.yourusers img{
+    width: 30%;
+}
+
+.getstarted{
+   
+}
+
+.getstarted div{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.getstarted h2{
+
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.getstarted a{
+    margin-top: 50px;
+}
+
+footer{
+    position: relative;
+    top: 10px;
+    color: #ffffff;
+}
+
+.footer-block{
+    background-color: #00252E;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.footer-block p{
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.footer-block h2, .logo, svg{
+   margin-bottom: 20px;
+}
+.icon{
+    margin-right: 10px;
+}
+
+input[type='submit']{
+    text-decoration: none;
+    border: solid 1px  hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    padding: 11px 31px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input[type='text']{
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+form{
+    gap: 15px;
+}
+
+
